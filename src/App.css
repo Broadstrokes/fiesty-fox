@@ -40,6 +40,7 @@
   background-color: #295971;
   background-image: none;
   background-repeat: no-repeat;
+  border-bottom: none;
 }
 
 .navbar-inverse {
@@ -56,10 +57,12 @@
   padding-top: 0;
   font-size: 16px;
   color: #fff !important;
+  margin: 0 15px 0 15px;
 }
 
 .nav a:hover {
   color: #8c8c8c !important;
+  text-decoration: none;
 }
 
 
@@ -75,7 +78,28 @@
 
 .container-home {
   height: 100vh;
-  margin-top: 10vh;
+  margin-bottom: 400px;
+  padding: 0;
+}
+
+.container-home-info {
+  width: 80vw;
+}
+
+.home-header {
+  background-color: #295971;
+  height: 400px;
+  width: 100%;
+}
+
+.home-logo {
+  margin-top: 100px;
+  height: 250px;
+}
+
+.home-pic {
+  height: 500px;
+  width: 100%;
 }
 
 .intro-right {
@@ -127,6 +151,10 @@
 }
 
 .dentists-section-right {
+  text-align: right;
+}
+
+.dentists-section-right h4 {
   text-align: right;
 }
 
@@ -368,8 +396,8 @@
 
 .footer-distributed .footer-center p span {
   display: block;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   line-height: 2;
 }
 
@@ -421,8 +449,20 @@
   margin-bottom: 5px;
 }
 
+.footer-hours h3 {
+  text-align: center;
+  font: bold 20px sans-serif;
+}
+
 .footer-hours li {
+  font: normal 16px sans-serif;
   list-style-type: none;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.footer-hours hr {
+  margin: 10px 0 10px 0;
 }
 
 

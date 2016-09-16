@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-var Alert = require('react-bootstrap').Alert;
+import { Link } from 'react-router'
 
 class App extends Component {
   render() {
@@ -9,10 +8,6 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Home />
-        <Dentists />
-        <Services />
-        <Patient />
-        <Contact />
         <Footer />
       </div>
     );
@@ -33,16 +28,16 @@ class Nav extends Component {
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav">
           <li>
-            <a href="#" id="dentists">Our Dentists</a>
+            <li><Link to="/Dentists">Our Dentists</Link></li>
           </li>
           <li>
-            <a href="#" id="services">Services</a>
+            <li><Link to="/Services">Services</Link></li>
           </li>
           <li>
-            <a href="#" id="patient-info">Patient Info</a>
+            <li><Link to="/Patient">Patient Info</Link></li>
           </li>
           <li>
-            <a href="#" id="contact">Contact Us</a>
+            <li><Link to="/Contact">Contact Us</Link></li>
           </li>
         </ul>
       </div>
@@ -58,41 +53,39 @@ class Home extends Component {
 
       <div className="container-fluid container-home">
 
-        <div className="row">
-          <div className="col-md-9">
-            <img src="http://placehold.it/700x400" className="intro-pic" />
-          </div>
-          <div className="col-md-3 intro-right">
-            <p>
-              <span><i className="fa fa-phone fa-3x"></i></span>  (123)456-7890
-            </p>
-            <a className="btn btn-social-icon btn-facebook" href="#" target="_blank">
-              <span className="fa fa-facebook fa-3x"></span><span>Visit us on Facebook!</span>
-            </a>
-          </div>
-        </div>
-            
-        <hr></hr>
+        <div className="home-header">
 
-        <div className="row">
-          <div className="col-md-8 welcome">
-            <h1>Welcome to Yu Dentistry</h1>
-            <p>
-                Welcome to ______. We are committed to providing comprehensive oral care to our patients while upholding outstanding ethics. 
-              We have been providing dental services in the Greater Vancouver Region since 1998. Our office is conveniently located at 
-              809 West 41st Ave in Vancouver with easy transit and parking access.
-              Our mission statement is to provide individualized, patient-centered, exceptional care using the latest technologies 
-              in order to improve the overall health and well-being of our patients. We are also dedicated to continuous education in order 
-              to provide the best treatment options and techniques for our patients.
-            </p>
-          </div>
-
-          <div className="col-md-4">
-            <p>afhweildsjk</p>
-          </div>
+          <img src="/img/yu_icon3_cropped.jpg" className="home-logo" alt="MC2 Dentistry"></img>
 
         </div>
-        
+
+        <div>
+
+          <img src="http://placehold.it/1500x500" className="home-pic" />
+
+        </div>
+
+        <div className="container-fluid container-home-info">
+
+          <div className="row">
+            <div className="col-md-8 welcome">
+              <h1>Welcome to Yu Dentistry</h1>
+              <p>
+                  Welcome to ______. We are committed to providing comprehensive oral care to our patients while upholding outstanding ethics. 
+                We have been providing dental services in the Greater Vancouver Region since 1998. Our office is conveniently located at 
+                809 West 41st Ave in Vancouver with easy transit and parking access.
+                Our mission statement is to provide individualized, patient-centered, exceptional care using the latest technologies 
+                in order to improve the overall health and well-being of our patients. We are also dedicated to continuous education in order 
+                to provide the best treatment options and techniques for our patients.
+              </p>
+            </div>
+
+            <div className="col-md-4">
+              <p>afhweildsjk</p>
+            </div>
+
+          </div>
+        </div>
       </div>
 
     );
@@ -147,22 +140,21 @@ class Footer extends Component {
                 
                     <div>
                       <h3>Office Hours</h3>
+                      <hr className="footer-hours-hr"></hr>
                       <ul>
-                        <li>Monday - 9:30 am - 6:00 pm</li>
-                        <li>Tuesday - 9:30 am - 6:00 pm</li>
-                        <li>Wednesday - 9:30 am - 6:00 pm</li>
-                        <li>Thursday - CLOSED</li>
-                        <li>Friday - 9:30 am - 6:00 pm</li>
-                        <li>Saturday - 9:30 am - 6:00 pm</li>
-                        <li>Sunday - CLOSED</li>
+                        <li>Monday: 9:30 am - 6:00 pm</li>
+                        <li>Tuesday: 9:30 am - 6:00 pm</li>
+                        <li>Wednesday: 9:30 am - 6:00 pm</li>
+                        <li>Thursday: CLOSED</li>
+                        <li>Friday: 9:30 am - 6:00 pm</li>
+                        <li>Saturday: 9:30 am - 6:00 pm</li>
+                        <li>Sunday: CLOSED</li>
                       </ul>
                     </div>
 
                   </div>
 
           <div className="footer-icons">
-
-            <a href="#"><i className="fa fa-facebook"></i></a>
 
           </div>
 
