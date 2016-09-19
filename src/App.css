@@ -36,15 +36,11 @@
 
 #mainnav {
   height: 60px;
-  font-family: Verdana;
+  font: bold 20px sans-serif;
   background-color: #295971;
   background-image: none;
   background-repeat: no-repeat;
   border-bottom: none;
-}
-
-.navbar-inverse {
-  background-color: #295971;
 }
 
 .navbar-brand {
@@ -414,7 +410,7 @@
   width: 20%;
 }
 
-.footer-distributed .footer-company-about {
+/*.footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
   font-size: 13px;
@@ -447,7 +443,7 @@
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
-}
+}*/
 
 .footer-hours h3 {
   text-align: center;
@@ -466,7 +462,7 @@
 }
 
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* responsive media queries */
 
 @media (max-width: 880px) {
   .footer-distributed {
