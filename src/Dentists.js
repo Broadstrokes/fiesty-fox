@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import { Link } from 'react-router'
 
-class Dentists extends Component {
+export default class Dentists extends Component {
   render () {
     return (
 
