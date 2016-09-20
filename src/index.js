@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import App from './App';
 import './index.css';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
@@ -11,15 +11,15 @@ import Services from './Services'
 import Patient from './Patient'
 import Contact from './Contact'
 
-ReactDOM.render(
+render(
   <Router history={browserHistory}>
-
     <Route path="/" component={App}>
-		<Route path="/Nav" component={Nav}/>
-		<Route path="/Home" component={Home}/>
-		<Route path="/Footer" component={Footer}/>
-	</Route>
-
+      <Route path="/home" component={Home}/>
+  		<Route path="/dentists" component={Dentists}/>
+      <Route path="/services" component={Services}/>
+      <Route path="/patient" component={Patient}/>
+      <Route path="/contact" component={Contact}/>
+	 </Route>
   </Router>,
   document.getElementById('root')
 );
