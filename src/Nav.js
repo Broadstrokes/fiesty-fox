@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Link } from 'react-router'
+import React, { Component } from 'react'
+import IndexLink from 'react-router'
+import NavLink from './NavLink'
 
-class Nav extends Component {
+export default class Nav extends Component {
   render() {
     return (
       <nav id="mainnav" className="navbar navbar-inverse navbar-fixed-top">
@@ -14,19 +14,12 @@ class Nav extends Component {
       </div>
 
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul className="nav navbar-nav">
-          <li>
-            <a href="#" id="dentists">Our Dentists</a>
-          </li>
-          <li>
-            <a href="#" id="services">Services</a>
-          </li>
-          <li>
-            <a href="#" id="patient-info">Patient Info</a>
-          </li>
-          <li>
-            <a href="#" id="contact">Contact Us</a>
-          </li>
+        <ul className="nav navbar-nav" role="nav">
+          <li><NavLink to="/home">Our Home</NavLink></li>
+          <li><NavLink to="/dentists">Our Dentists</NavLink></li>
+          <li><NavLink to="/services">Services</NavLink></li>
+          <li><NavLink to="/patient">Patient Info</NavLink></li>
+          <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
       </div>
     </div>
