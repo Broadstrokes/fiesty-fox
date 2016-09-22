@@ -6,12 +6,8 @@ export default class Dentists extends Component {
 
       <div className="container-fluid container-dentists">
   
-        <div className="dentists-intro-top">
+        <div className="page-header">
           <h1>Meet Our Dentists</h1>
-        </div>
-        
-        <div className="dentists-intro-bottom">
-          This dynamic father-son duo will make your smile whiter than the US congress
         </div>
         
         <div className="container-fluid container-dentists-info">

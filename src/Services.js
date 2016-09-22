@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 export default class Services extends Component {
   render() {
     return (
+      <div className="container-fluid container-outer">
+
+        <div className="page-header">
+          <h1>Services</h1>
+        </div>
 
       <div className="container-fluid container-services">
 
@@ -297,7 +302,7 @@ export default class Services extends Component {
         </section>
 
       </div>
-
+      </div>
     );
   }
 }

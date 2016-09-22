@@ -15,7 +15,7 @@ export default class Nav extends Component {
 
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav" role="nav">
-          <li><NavLink to="/home">Our Home</NavLink></li>
+          <li><NavLink to="/home">Home</NavLink></li>
           <li><NavLink to="/dentists">Our Dentists</NavLink></li>
           <li><NavLink to="/services">Services</NavLink></li>
           <li><NavLink to="/patient">Patient Info</NavLink></li>

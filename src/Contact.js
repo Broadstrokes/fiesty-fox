@@ -4,7 +4,12 @@ export default class Contact extends Component {
   render() {
     return (
 
-    <section className="container-contact">
+    <section className="container-fluid container-outer">
+
+      <div className="page-header">
+          <h1>Contact Us</h1>
+        </div>
+
       <div className="container-fluid container-contact-top">
         <div className="row">
 

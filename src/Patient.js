@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 export default class Patient extends Component {
   render() {
     return (
+      <div className="container-fluid container-outer">
+
+        <div className="page-header">
+          <h1>Patient Info</h1>
+        </div>
 
       <div className="container-fluid container-patient">
 
@@ -88,7 +93,7 @@ export default class Patient extends Component {
         </section>
 
       </div>
-
+      </div>
     );
   }
 }

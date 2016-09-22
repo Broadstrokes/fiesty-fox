@@ -48,6 +48,7 @@ export default class Footer extends Component {
                 
                     <div>
                       <h3>Office Hours</h3>
+                      <hr></hr>
                       <ul>
                         <li>Monday - 9:30 am - 6:00 pm</li>
                         <li>Tuesday - 9:30 am - 6:00 pm</li>
