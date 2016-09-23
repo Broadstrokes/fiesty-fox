@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import App from './App';
 import './index.css';
-import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import Nav from './Nav'
 import Footer from './Footer'
 import Home from './Home'
@@ -15,6 +15,7 @@ render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
+      <Route path="/home" component={Home}/>
   		<Route path="/dentists" component={Dentists}/>
       <Route path="/services" component={Services}/>
       <Route path="/patient" component={Patient}/>

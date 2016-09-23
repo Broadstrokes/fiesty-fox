@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { IndexLink } from 'react-router'
+import NavLink from './NavLink'
 
 export default class Footer extends Component {
   render() {
@@ -8,16 +10,18 @@ export default class Footer extends Component {
 
         <div className="footer-left">
 
-          <a className="footer-logo" href="#"><img src="/img/yu_icon3_cropped.jpg" alt="MC2 Dentistry"></img></a>
+          <a className="footer-logo"><IndexLink to="/"><img src="/img/yu_icon3_cropped.jpg" alt="MC2 Dentistry"></img></IndexLink></a>
 
           <p className="footer-links">
-            <a href="#">Home</a>
+            <IndexLink to="/">Home</IndexLink>
             · 
-            <a href="#"> Our Dentists</a> 
+            <NavLink to="/dentists">Our Dentists</NavLink>
             · 
-            <a href="#"> Services</a> 
+            <NavLink to="/services">Services</NavLink>
             · 
-            <a href="#"> Contact Us</a> 
+            <NavLink to="/patient">Patient Info</NavLink>
+            · 
+            <NavLink to="/contact">Contact Us</NavLink>
           </p>
 
           <p className="footer-company-name">MC2 Dental &copy; 2016</p>
@@ -63,8 +67,6 @@ export default class Footer extends Component {
                   </div>
 
           <div className="footer-icons">
-
-            <a href="#"><i className="fa fa-facebook"></i></a>
 
           </div>
 
