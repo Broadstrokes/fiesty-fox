@@ -32,7 +32,7 @@ export default class Contact extends Component {
 
           <div className="col-md-7">
 
-            <h3>Send us a message!</h3>
+            <h3>Or send us a message!</h3>
 
             <hr></hr>
 

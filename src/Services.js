@@ -54,6 +54,7 @@ export default class Services extends Component {
         <section className="row services-section" id="exams-xrays">
           <div className="col-md-6">
             <h3>Exams and Digital X-Rays</h3>
+            <hr className="hr-services"></hr>
             <p>
                 As a new patient, our dentists will evaluate your oral system to comprehensively 
               determine what treatment options are recommended. This involves evaluating each tooth, 
@@ -80,6 +81,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
           <h3>Periodontal Therapy</h3>
+          <hr className="hr-services"></hr>
             <p>
                 The foundation and surrounding structures of our teeth is known as the periodontium.
               Many factors can cause the periodontium to become diseased and inflamed. If left untreated, 
@@ -96,6 +98,7 @@ export default class Services extends Component {
         <section className="row services-section" id="composite-restorations">
           <div className="col-md-6">
             <h3>Composite Restorations</h3>
+            <hr className="hr-services"></hr>
             <p>
                 Composite Restorations – These are also known as white fillings. At our office, we are 
               proud to provide bonded composite resin restorations as opposed to the traditional silver 
@@ -128,6 +131,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
             <h3>Dental Implants</h3>
+            <hr className="hr-services"></hr>
             <p>
                 An excellent option for many patients to replace a missing or soon-to-be-missing tooth. 
               These are made of a biocompatible titanium alloy in the shape of a little screw that is 
@@ -145,6 +149,7 @@ export default class Services extends Component {
         <section className="row services-section" id="crowns">
           <div className="col-md-6">
             <h3>Crowns</h3>
+            <hr className="hr-services"></hr>
             <p>
                 When a tooth is compromised such that a filling may not be the best option for the 
               longevity of the tooth, a crown is a full coverage restoration that’ll protect the 
@@ -170,6 +175,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
             <h3>Dental Bridges</h3>
+            <hr className="hr-services"></hr>
             <p>
                 A fixed, as opposed to removable (such as dentures), option to replace a missing tooth 
               or teeth. This consists of 3 or more fused crowns extending from one anchor tooth to 
@@ -185,6 +191,7 @@ export default class Services extends Component {
         <section className="row services-section" id="porcelain-veneers">
           <div className="col-md-6">
             <h3>Porcelain Veneers</h3>
+            <hr className="hr-services"></hr>
             <p>
                 These are fixed prosthetics used primarily to enhance the appearance of one’s front teeth. 
               Candidate teeth include those that are slightly chipped, show superficial crack lines, 
@@ -209,6 +216,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
             <h3>Endodontics (Root Canals)</h3>
+            <hr className="hr-services"></hr>
             <p>
                 Trauma to a tooth, either through blunt force or dental decay, can irritate the nerve of a tooth. 
               If this irritation leads to bacteria entering the nerve, or pulp, of a tooth, the pulp often can’t 
@@ -234,6 +242,7 @@ export default class Services extends Component {
         <section className="row services-section" id="complete-dentures">
           <div className="col-md-6">
             <h3>Complete Dentures</h3>
+            <hr className="hr-services"></hr>
             <p>
                 When all teeth are missing on either the upper or lower jaw, a complete denture can be fabricated 
               to restore esthetics, form, and function. For additional stability and retention, implants can be 
@@ -254,6 +263,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
             <h3>Partial Dentures</h3>
+            <hr className="hr-services"></hr>
             <p>
                 When a few teeth are missing in one jaw, a removable partial denture can be a good option to restore 
               these teeth. They can either have a metal backbone or can be all acrylic, depending on the situation. 
@@ -269,6 +279,7 @@ export default class Services extends Component {
         <section className="row services-section" id="flippers">
           <div className="col-md-6">
             <h3>Flippers</h3>
+            <hr className="hr-services"></hr>
             <p>
                 A subsection of partial dentures. These are often made as a temporary solution for people who are 
               missing a front tooth due to trauma. Usually all acrylic, these depend on grabbing onto nearby 
@@ -289,6 +300,7 @@ export default class Services extends Component {
           </div>
           <div className="col-md-6">
             <h3>Extractions</h3>
+            <hr className="hr-services"></hr>
             <p>
                 Sometimes, despite our best efforts, a tooth cannot or should not be kept in the mouth. 
               Our team will determine the diagnosis and prognosis of a tooth and whether or not a specialist 

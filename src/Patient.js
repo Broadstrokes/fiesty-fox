@@ -14,6 +14,7 @@ export default class Patient extends Component {
         <section className="row patient-section" id="scheduling">
           <div className="col-md-12">
             <h3>Scheduling</h3>
+            <hr className="hr-short"></hr>
             <p>
               Please call us at 604-266-8602 to schedule an appointment. We will try our best to get you in at a 
             convenient time as soon as possible.
@@ -33,6 +34,7 @@ export default class Patient extends Component {
         <section className="row patient-section" id="first-visit">
           <div className="col-md-12">
             <h3>First Visit</h3>
+            <hr className="hr-short"></hr>
             <p>
                 At your first visit, please assist us by providing the following information:
             </p>
@@ -58,9 +60,20 @@ export default class Patient extends Component {
 
         <hr></hr>
 
+        <section className="row patient-section" id="post-op">
+          <div className="col-md-12">
+            <h3>Post Operative Instructions</h3>
+            <hr className="hr-short"></hr>
+            <a href="/files/post_op.pdf" target="_blank">Oral Surgery Post Operative Instructions</a>
+          </div>
+        </section>
+
+        <hr></hr>
+
         <section className="row patient-section" id="insurance">
           <div className="col-md-12">
             <h3>Insurance</h3>
+            <hr className="hr-short"></hr>
             <p>
                 We accept most Canadian dental insurance policies. We accept direct payment of benefits from your insurance provider 
               but do require your portion of payment at the time of service.
@@ -77,6 +90,7 @@ export default class Patient extends Component {
         <section className="row patient-section" id="additional-links">
           <div className="col-md-12">
             <h3>Additional Links</h3>
+            <hr className="hr-short"></hr>
             <p>
                 <a href="https://yourdentalhealth.ca">Yourdentalhealth.ca</a> provides general information on many dental topics.
             </p>

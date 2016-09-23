@@ -54,13 +54,13 @@ export default class Footer extends Component {
                       <h3>Office Hours</h3>
                       <hr></hr>
                       <ul>
-                        <li>Monday - 9:30 am - 6:00 pm</li>
-                        <li>Tuesday - 9:30 am - 6:00 pm</li>
-                        <li>Wednesday - 9:30 am - 6:00 pm</li>
-                        <li>Thursday - CLOSED</li>
-                        <li>Friday - 9:30 am - 6:00 pm</li>
-                        <li>Saturday - 9:30 am - 6:00 pm</li>
-                        <li>Sunday - CLOSED</li>
+                        <li><span>Monday</span> · 9:30 am - 6:00 pm</li>
+                        <li><span>Tuesday</span> · 9:30 am - 6:00 pm</li>
+                        <li><span>Wednesday</span> · 9:30 am - 6:00 pm</li>
+                        <li><span>Thursday</span> · CLOSED</li>
+                        <li><span>Friday</span> · 9:30 am - 6:00 pm</li>
+                        <li><span>Saturday</span> · 9:30 am - 6:00 pm</li>
+                        <li><span>Sunday</span> · CLOSED</li>
                       </ul>
                     </div>
 

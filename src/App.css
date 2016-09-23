@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
 }
 
 /*.App-logo {
@@ -67,7 +68,7 @@
 
 
 .nav-logo {
-  height: 60px;
+  height: 56px;
 }
 
 /* Home Page */
@@ -93,9 +94,28 @@
   height: 250px;
 }
 
-.home-pic {
+/*.home-banner {
+  background-image: url("http://wallstdentalspanyc.com/wp-content/uploads/section-dental-chair1-1500x500.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
   height: 500px;
   width: 100%;
+}
+
+.home-banner h1 {
+  text-align: center;
+  line-height: 300px;
+  font-size: 5em;
+  color: #fff;
+  display: inline-block;
+}*/
+
+.home-pic {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  filter: brightness(60%);
 }
 
 .intro-right {
@@ -196,12 +216,21 @@
   color: #8c8c8c;
 }
 
+.hr-services {
+  border: none;
+  height: 2px;
+  background-color: #295971;
+  margin-left: 0;
+  margin-top: 4px;
+  width: 50%;
+}
+
 .services-section {
   margin-top: 5vh;
   width: 80vw;
 }
 
-.services-section:before { 
+.services-section:before { /* Makes the jump links not collide with the navbar */
   display: block; 
   content: " "; 
   margin-top: -75px; 
@@ -219,12 +248,12 @@
 
 .img-left {
   display: block;
-  text-align: left;
+  float: left;
 }
 
 .img-right {
   display: block;
-  text-align: right;
+  float: right;
 }
 
 /* Patient Info section */
@@ -235,8 +264,18 @@
   margin-bottom: 10vh;
 }
 
-.patient-section h3 {
+.patient-section {
   text-align: left;
+}
+
+.hr-short {
+  text-align: center;
+  border: none;
+  height: 2px;
+  background-color: #295971;
+  margin-left: 0;
+  margin-top: 4px;
+  width: 20%;
 }
 
 /* Contact section */
@@ -255,7 +294,7 @@
   text-align: left;
 }
 
-.form-group label {
+.form-group {
   text-align: left;
 }
 
@@ -449,7 +488,14 @@
 }
 
 .footer-hours hr {
-  margin: 10px 0 10px 0;
+  height: 1px;
+  width: 75%;
+  text-align: center;
+  margin: 7px 0 7px 0 auto; 
+}
+
+.footer-hours span {
+  color: #999999;
 }
 
 
