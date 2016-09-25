@@ -50,17 +50,17 @@ export default class Footer extends Component {
 
           <div className="footer-hours">
                 
-                    <div>
-                      <h3>Office Hours</h3>
-                      <hr></hr>
+                    <div className="clinic-hours">
+                      <h3>Clinic Hours</h3>
+
                       <ul>
-                        <li><span>Monday</span> · 9:30 am - 6:00 pm</li>
-                        <li><span>Tuesday</span> · 9:30 am - 6:00 pm</li>
-                        <li><span>Wednesday</span> · 9:30 am - 6:00 pm</li>
-                        <li><span>Thursday</span> · CLOSED</li>
-                        <li><span>Friday</span> · 9:30 am - 6:00 pm</li>
-                        <li><span>Saturday</span> · 9:30 am - 6:00 pm</li>
-                        <li><span>Sunday</span> · CLOSED</li>
+                        <li><span className="hours-day">Monday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Tuesday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Wednesday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Thursday</span> <span className="hours-time">CLOSED</span></li>
+                        <li><span className="hours-day">Friday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Saturday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Sunday</span> <span className="hours-time">CLOSED</span></li>
                       </ul>
                     </div>
 

@@ -52,6 +52,7 @@
   line-height: 60px;
   padding-top: 0;
   font-size: 16px;
+  font-weight: bold !important;
   color: #fff !important;
   margin: 0 15px 0 15px;
 }
@@ -92,6 +93,32 @@
 .home-logo {
   margin-top: 100px;
   height: 250px;
+}
+
+.home-header i {
+  margin-top: 150px;
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+.home-header p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 150px 0 0 15px;
+  font: bold 28px sans-serif;
+}
+
+.home-header p span {
+  display: block;
+  line-height: 2;
 }
 
 /*.home-banner {
@@ -294,6 +321,20 @@
   margin-bottom: 10vh;
 }
 
+.container-contact-top p,li {
+  font: 16px sans-serif;
+}
+
+.contact-hours ul {
+  padding: 0;
+}
+
+.contact-hours li {
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
 .container-contact-top h3,h4 {
   text-align: left;
 }
@@ -482,6 +523,7 @@
 .footer-hours h3 {
   text-align: center;
   font: bold 20px sans-serif;
+  margin-bottom: 15px;
 }
 
 .footer-hours li {
@@ -498,8 +540,17 @@
   margin: 7px 0 7px 0 auto; 
 }
 
-.footer-hours span {
+.clinic-hours {
+  width: 300px;
+}
+
+.hours-day {
   color: #999999;
+  text-align: left;
+}
+
+.hours-time {
+  float: right;
 }
 
 

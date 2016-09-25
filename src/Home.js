@@ -8,7 +8,23 @@ export default class Home extends Component {
 
         <div className="home-header">
 
-          <img src="/img/yu_icon3_cropped.jpg" className="home-logo" alt="MC2 Dentistry"></img>
+          <div className="row">
+
+            <div className="col-md-4">
+              <i className="fa fa-map-marker"></i>
+              <p><span>#115-809 West 41st Ave.</span> Vancouver, B.C. V5Z 2N6</p>
+            </div>
+
+            <div className="col-md-4">
+              <img src="/img/yu_icon3_cropped.jpg" className="home-logo" alt="MC2 Dentistry"></img>
+            </div>
+
+            <div className="col-md-4">
+              <i className="fa fa-phone"></i>
+              <p>(604) 266 - 8602</p>
+            </div>
+
+          </div>
 
         </div>
 
