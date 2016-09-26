@@ -16,7 +16,7 @@ export default class Patient extends Component {
             <h3>Scheduling</h3>
             <hr className="hr-short"></hr>
             <p>
-              Please call us at 604-266-8602 to schedule an appointment. We will try our best to get you in at a 
+              Please call us at <strong>604-266-8602</strong> to schedule an appointment. We will try our best to get you in at a 
             convenient time as soon as possible.
             </p>
             <p>

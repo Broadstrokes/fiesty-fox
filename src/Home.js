@@ -37,7 +37,7 @@ export default class Home extends Component {
         <div className="container-fluid container-home-info">
 
               <h1>Welcome to MC2 Dental Clinic</h1>
-              <hr></hr>
+              <hr className="hr-home"></hr>
               <p>
                   Welcome to MC2 Dental Clinic. We are committed to providing comprehensive oral care to our patients while upholding outstanding ethics. 
                 We have been providing dental services in the Greater Vancouver Region since 1998. Our office is conveniently located at 
