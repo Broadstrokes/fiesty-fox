@@ -240,6 +240,43 @@
 }
 
 .services-menu {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #367696;
+}
+
+.services-menu td {
+  padding: 10px 5px;
+  border: 1px solid;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.services-menu th {
+  font: 16px sans-serif;
+  color: #fff;
+  padding: 10px 5px;
+  border: 2px solid #295971;
+  width: 125px;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.menu-item {
+  text-align: center;
+  vertical-align: center;
+}
+
+.services-menu a {
+  color: #fff;
+}
+
+.services-menu a:hover {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+/*.services-menu {
   background-color: #295971;
   text-align: center;
   padding: 10px;
@@ -260,7 +297,7 @@
 .services-menu a:hover {
   text-decoration: none;
   color: #8c8c8c;
-}
+}*/
 
 .hr-services {
   border: none;

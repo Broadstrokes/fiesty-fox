@@ -12,7 +12,7 @@ import Patient from './Patient'
 import Contact from './Contact'
 
 render(
-  <Router history={browserHistory}>
+  <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="/home" component={Home}/>

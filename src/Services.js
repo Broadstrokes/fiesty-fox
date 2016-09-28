@@ -11,7 +11,7 @@ export default class Services extends Component {
 
       <div className="container-fluid container-services">
 
-        <section className="row services-menu">
+        /*<section className="row services-menu">
 
           <div className="col-md-1">
             <a href="#exams-xrays">Exams and Digital X-Rays</a>
@@ -49,6 +49,28 @@ export default class Services extends Component {
           <div className="col-md-1">
             <a href="#extractions">Extractions</a>
           </div>
+        </section>*/
+        <section>
+            <div className="row">
+              <div className="col-md-12">
+                <table className="services-menu">
+                  <tr>
+                    <th className="menu-item"><a href="#exams-xrays">Exams and Digital X-Rays</a></th>
+                    <th className="menu-item"><a href="#periodontal-therapy">Periodontal Therapy</a></th>
+                    <th className="menu-item"><a href="#composite-restorations">Composite Restorations</a></th>
+                    <th className="menu-item"><a href="#dental-implants">Dental Implants</a></th>
+                    <th className="menu-item"><a href="#crowns">Crowns</a></th>
+                    <th className="menu-item"><a href="#dental-bridges">Dental Bridges</a></th>
+                    <th className="menu-item"><a href="#porcelain-veneers">Porcelain Veneers</a></th>
+                    <th className="menu-item"><a href="#endodontics">Endodontics (Root Canals)</a></th>
+                    <th className="menu-item"><a href="#complete-dentures">Complete Dentures</a></th>
+                    <th className="menu-item"><a href="#partial-dentures">Partial Dentures</a></th>
+                    <th className="menu-item"><a href="#flippers">Flippers</a></th>
+                    <th className="menu-item"><a href="#extractions">Extractions</a></th>
+                  </tr>
+                </table>
+              </div>
+            </div>
         </section>
 
         <section className="row services-section" id="exams-xrays">
