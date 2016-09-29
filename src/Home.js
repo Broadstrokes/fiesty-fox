@@ -21,7 +21,7 @@ export default class Home extends Component {
 
             <div className="col-md-4">
               <i className="fa fa-phone"></i>
-              <p>(604) 266 - 8602</p>
+              <p>(604) 266 - 8602<span className="fax-number">Fax: (604) 266 - 8670</span></p>
             </div>
 
           </div>
@@ -48,6 +48,7 @@ export default class Home extends Component {
               </p>
 
         </div>
+
       </div>
     );
   }

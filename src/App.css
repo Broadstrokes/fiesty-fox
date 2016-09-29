@@ -81,7 +81,7 @@
 
 .container-home {
   height: 100vh;
-  margin-bottom: 400px;
+  margin-bottom: 50vh;
   padding: 0;
 }
 
@@ -127,6 +127,10 @@
   line-height: 2;
 }
 
+.fax-number {
+  font-weight: normal !important;
+}
+
 /*.home-banner {
   background-image: url("http://wallstdentalspanyc.com/wp-content/uploads/section-dental-chair1-1500x500.jpg");
   background-repeat: no-repeat;
@@ -168,6 +172,9 @@
   width: 100%;
 }
 
+.home-gallery {
+  margin-top: 100px;
+}
 
 /* Dentists section */
 
@@ -267,13 +274,17 @@
   vertical-align: center;
 }
 
+.menu-item:hover {
+  background-color: #000;
+}
+
 .services-menu a {
   color: #fff;
+  text-decoration: none;
 }
 
 .services-menu a:hover {
   color: #8c8c8c;
-  text-decoration: none;
 }
 
 /*.services-menu {
@@ -530,6 +541,9 @@
   ;
 }
 
+.footer-phone {
+  margin-top: 10px !important;
+}
 
 /* Footer Right */
 

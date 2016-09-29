@@ -11,45 +11,6 @@ export default class Services extends Component {
 
       <div className="container-fluid container-services">
 
-        /*<section className="row services-menu">
-
-          <div className="col-md-1">
-            <a href="#exams-xrays">Exams and Digital X-Rays</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#periodontal-therapy">Periodontal Therapy</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#composite-restorations">Composite Restorations</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#dental-implants">Dental Implants</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#crowns">Crowns</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#dental-bridges">Dental Bridges</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#porcelain-veneers">Porcelain Veneers</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#endodontics">Endodontics (Root Canals)</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#complete-dentures">Complete Dentures</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#partial-dentures">Partial Dentures</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#flippers">Flippers</a>
-          </div>
-          <div className="col-md-1">
-            <a href="#extractions">Extractions</a>
-          </div>
-        </section>*/
         <section>
             <div className="row">
               <div className="col-md-12">
