@@ -20,14 +20,14 @@ export default class Services extends Component {
                     <th className="menu-item"><a href="#periodontal-therapy">Periodontal Therapy</a></th>
                     <th className="menu-item"><a href="#composite-restorations">Composite Restorations</a></th>
                     <th className="menu-item"><a href="#dental-implants">Dental Implants</a></th>
-                    <th className="menu-item"><a href="#crowns">Crowns</a></th>
+                    <th className="menu-item"><a href="#crowns">Dental Crowns</a></th>
                     <th className="menu-item"><a href="#dental-bridges">Dental Bridges</a></th>
                     <th className="menu-item"><a href="#porcelain-veneers">Porcelain Veneers</a></th>
                     <th className="menu-item"><a href="#endodontics">Endodontics (Root Canals)</a></th>
                     <th className="menu-item"><a href="#complete-dentures">Complete Dentures</a></th>
                     <th className="menu-item"><a href="#partial-dentures">Partial Dentures</a></th>
-                    <th className="menu-item"><a href="#flippers">Flippers</a></th>
-                    <th className="menu-item"><a href="#extractions">Extractions</a></th>
+                    <th className="menu-item"><a href="#flippers">Dental Flippers</a></th>
+                    <th className="menu-item"><a href="#extractions">Dental Extractions</a></th>
                   </tr>
                 </table>
               </div>
@@ -49,7 +49,7 @@ export default class Services extends Component {
               and treatment of problems a reality. Most importantly, digital x-rays decreases radiation 
               exposure to you.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -72,7 +72,7 @@ export default class Services extends Component {
               can change the appearance of your smile. We provide individualized specific treatment options 
               for each of our patients to help maintain a healthy periodontium.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 
@@ -99,7 +99,7 @@ export default class Services extends Component {
               anatomical form and then polish it so that it's hard for people to discern that you've had 
               dental work done!
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -123,7 +123,7 @@ export default class Services extends Component {
               A laboratory then fabricates an implant-supported crown based on the shape of your teeth 
               to restore esthetics and function.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 
@@ -131,7 +131,7 @@ export default class Services extends Component {
 
         <section className="row services-section" id="crowns">
           <div className="col-md-6">
-            <h3>Crowns</h3>
+            <h3>Dental Crowns</h3>
             <hr className="hr-services"></hr>
             <p>
                 When a tooth is compromised such that a filling may not be the best option for the 
@@ -143,7 +143,7 @@ export default class Services extends Component {
               crown to help you protect the remaining tooth structure and to provide a “test-run” for 
               what the final shape and bite of the tooth feels like.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -165,7 +165,7 @@ export default class Services extends Component {
               the other, with artificial teeth attached in the middle. Similar to crowns, these will 
               usually require 2 appointments to complete.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 
@@ -184,7 +184,7 @@ export default class Services extends Component {
               laboratory makes the porcelain veneer, a temporary veneer will be fabricated for you to 
               protect the tooth and your smile.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -216,7 +216,7 @@ export default class Services extends Component {
               natural inert tree rubber called gutta percha. Then, we have to restore the tooth, usually with a 
               full coverage restoration such as a crown, or in some cases, a direct bonded composite restoration. 
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 
@@ -231,7 +231,7 @@ export default class Services extends Component {
               to restore esthetics, form, and function. For additional stability and retention, implants can be 
               used to secure a denture more firmly in place. These are custom made for each individual of course!
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -253,7 +253,7 @@ export default class Services extends Component {
               These are helpful in not only providing good biting power, but to prevent the drifting of nearby teeth 
               which can result in a change in the alignment of your teeth and smile.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 
@@ -268,7 +268,7 @@ export default class Services extends Component {
               missing a front tooth due to trauma. Usually all acrylic, these depend on grabbing onto nearby 
               teeth to replace a missing front tooth for esthetic reasons.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
           <div className="col-md-6">
             <img src="http://placehold.it/600x300" className="img-right" />
@@ -292,7 +292,7 @@ export default class Services extends Component {
               take out the tooth for you. Then, if recommended, treatment options will be presented to you 
               to determine the options to replace the missing tooth.
             </p>
-            <a href="#">Back to top</a>
+            <a href="#"><div className="button">Back to top</div></a>
           </div>
         </section>
 

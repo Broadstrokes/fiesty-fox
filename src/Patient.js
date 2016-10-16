@@ -64,7 +64,7 @@ export default class Patient extends Component {
           <div className="col-md-12">
             <h3>Post Operative Instructions</h3>
             <hr className="hr-short"></hr>
-            <a href="/files/post_op.pdf" target="_blank">Oral Surgery Post Operative Instructions</a>
+            <a href="/files/post_op.pdf" target="_blank"><div className="button">Oral Surgery Post Operative Instructions</div></a>
           </div>
         </section>
 
