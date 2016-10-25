@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { IndexLink } from 'react-router'
+import NavLink from './NavLink'
 
 export default class Footer extends Component {
   render() {
@@ -8,16 +10,18 @@ export default class Footer extends Component {
 
         <div className="footer-left">
 
-          <a className="footer-logo" href="#"><img src="/img/yu_icon3_cropped.jpg" alt="MC2 Dentistry"></img></a>
+          <a className="footer-logo"><IndexLink to="/"><img src="/img/yu_icon3_cropped.jpg" alt="MC2 Dentistry"></img></IndexLink></a>
 
           <p className="footer-links">
-            <a href="#">Home</a>
+            <IndexLink to="/">Home</IndexLink>
             · 
-            <a href="#"> Our Dentists</a> 
+            <NavLink to="/dentists">Our Dentists</NavLink>
             · 
-            <a href="#"> Services</a> 
+            <NavLink to="/services">Services</NavLink>
             · 
-            <a href="#"> Contact Us</a> 
+            <NavLink to="/patient">Patient Info</NavLink>
+            · 
+            <NavLink to="/contact">Contact Us</NavLink>
           </p>
 
           <p className="footer-company-name">MC2 Dental &copy; 2016</p>
@@ -32,7 +36,7 @@ export default class Footer extends Component {
 
           <div>
             <i className="fa fa-phone"></i>
-            <p>(604) 266 - 8602</p>
+            <p className="footer-phone">(604) 266 - 8602<span className="fax-number">Fax: (604) 266 - 8670</span></p>
           </div>
 
           <div>
@@ -46,24 +50,23 @@ export default class Footer extends Component {
 
           <div className="footer-hours">
                 
-                    <div>
-                      <h3>Office Hours</h3>
+                    <div className="clinic-hours">
+                      <h3>Clinic Hours</h3>
+
                       <ul>
-                        <li>Monday - 9:30 am - 6:00 pm</li>
-                        <li>Tuesday - 9:30 am - 6:00 pm</li>
-                        <li>Wednesday - 9:30 am - 6:00 pm</li>
-                        <li>Thursday - CLOSED</li>
-                        <li>Friday - 9:30 am - 6:00 pm</li>
-                        <li>Saturday - 9:30 am - 6:00 pm</li>
-                        <li>Sunday - CLOSED</li>
+                        <li><span className="hours-day">Monday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Tuesday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Wednesday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Thursday</span> <span className="hours-time">CLOSED</span></li>
+                        <li><span className="hours-day">Friday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Saturday</span> <span className="hours-time">9:30 am - 6:00 pm</span></li>
+                        <li><span className="hours-day">Sunday</span> <span className="hours-time">CLOSED</span></li>
                       </ul>
                     </div>
 
                   </div>
 
           <div className="footer-icons">
-
-            <a href="#"><i className="fa fa-facebook"></i></a>
 
           </div>
 

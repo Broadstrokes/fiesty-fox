@@ -6,19 +6,15 @@ export default class Dentists extends Component {
 
       <div className="container-fluid container-dentists">
   
-        <div className="dentists-intro-top">
+        <div className="page-header">
           <h1>Meet Our Dentists</h1>
-        </div>
-        
-        <div className="dentists-intro-bottom">
-          This dynamic father-son duo will make your smile whiter than the US congress
         </div>
         
         <div className="container-fluid container-dentists-info">
 
           <section className="row dentists-section-left">
             <div className="col-md-4">
-              <img src="http://placehold.it/300x400" />
+              <img src="http://www.stephensondds.com/images/eugene%20dentist%20dr.%20bob.jpg" />
 
             </div>
             <div className="col-md-8">
@@ -65,7 +61,7 @@ export default class Dentists extends Component {
               </p>
             </div>
             <div className="col-md-4">
-              <img src="http://placehold.it/300x400" />
+              <img src="http://kemmetdental.com/wp-content/uploads/2015/11/Dr.Kemmet.jpg" />
 
             </div>
           </section>

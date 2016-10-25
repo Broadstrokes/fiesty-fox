@@ -4,7 +4,12 @@ export default class Contact extends Component {
   render() {
     return (
 
-    <section className="container-contact">
+    <section className="container-fluid container-outer">
+
+      <div className="page-header">
+          <h1>Contact Us</h1>
+        </div>
+
       <div className="container-fluid container-contact-top">
         <div className="row">
 
@@ -14,20 +19,32 @@ export default class Contact extends Component {
 
             <hr></hr>
 
-            <h3>Call us: (123) 456-7890</h3>
-            <p>We offer morning, evening and weekend appointments.</p>
-            <p>We're better than Surrey dentists!</p>
+            <h3>Call us: (604) 266 - 8602 </h3>
             <br></br>
-            <h4><strong>Yu Dental Clinic</strong></h4>
+            <h4><strong>MC2 Dental Clinic</strong></h4>
+            <hr className="hr-services"></hr>
             <p>#115-809 West 41st Ave.</p>
-            <p>Vancouver, B.C.</p>
-            <p>v5z 2n6</p>
+            <p>Vancouver, B.C. V5Z 2N6</p>
+            <br></br>
+            <div className="contact-hours">
+              <h4><strong>Clinic Hours</strong></h4>
+                <hr className="hr-services"></hr>
+                  <ul>
+                    <li><span>Monday:</span> 9:30 am - 6:00 pm</li>
+                    <li><span>Tuesday:</span> 9:30 am - 6:00 pm</li>
+                    <li><span>Wednesday:</span> 9:30 am - 6:00 pm</li>
+                    <li><span>Thursday:</span> CLOSED</li>
+                    <li><span>Friday:</span> 9:30 am - 6:00 pm</li>
+                    <li><span>Saturday:</span> 9:30 am - 6:00 pm</li>
+                    <li><span>Sunday:</span> CLOSED</li>
+                  </ul>
+            </div>
 
           </div>
 
           <div className="col-md-7">
 
-            <h3>Send us a message!</h3>
+            <h3>Or send us a message!</h3>
 
             <hr></hr>
 
